@@ -1,6 +1,5 @@
 module Pipedrive
   class Deal < Base
-    
     def self.filter(filter_id, fetch_all_pages = true)
       acc = []
       start = 0
