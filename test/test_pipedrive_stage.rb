@@ -8,7 +8,7 @@ class TestPipedriveStage < Test::Unit::TestCase
   should "execute a valid stage request" do
     body = {}
 
-    stub_request(:get, "http://api.pipedrive.com/v1/stages?api_token=some-token").
+    stub_request(:get, "https://api.pipedrive.com/v1/stages?api_token=some-token").
       with(:body => body,
         :headers => {
           'Accept'=>'application/json',
