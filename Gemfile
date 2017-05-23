@@ -4,7 +4,7 @@ source "http://rubygems.org"
 #   gem "activesupport", ">= 2.3.5"
 
 gem 'httparty'
-gem 'json', '>= 1.7.7'
+gem 'json', '~> 1.7'
 gem 'multi_xml', '>= 0.5.2'
 
 # Add dependencies to develop your gem here.
